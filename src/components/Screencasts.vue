@@ -9,13 +9,13 @@
         Screencasts
       </SectionHeading>
       <p class="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        Over an hour of high quality, step-by-step video content to sharpen
-        your icon design workflow.
+        Peste o oră de conținut video de înaltă calitate, pas cu pas, pentru a-și
+        îmbunătăți fluxul de lucru de design de pictograme.
       </p>
       <p class="mt-4 text-lg tracking-tight text-slate-700">
-        Learn how to design your very first icons in a series of screencasts
-        that will teach you everything you need to know to go from beginner to
-        pro in just over an hour.
+        Învățați cum să desenați propriile pictograme într-o serie de screencasts
+        care vă vor învăța tot ce trebuie să știți pentru a trece de la
+        începător la expert în puțin mai mult de o oră.
       </p>
     </Container>
     <Container size="lg" class="mt-16">
@@ -71,26 +71,26 @@ import strokesImage from '@/images/screencasts/strokes.svg'
 
 const videos = [
   {
-    title: 'Getting started with Figma',
-    description: 'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
+    title: 'Primii pași cu Figma',
+    description: 'Familiarizează-vă cu interfața Figma, diferitele instrumente pe care le oferă și caracteristicile cele mai importante.',
     image: setupImage,
     runtime: { minutes: 16, seconds: 54 },
   },
   {
-    title: 'Setting up your artboard',
-    description: 'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
+    title: 'Configurarea planșei dvs.',
+    description: 'Învață cum să creezi un nou artboard și să configurezi grila și riglele dvs. pentru a desena pictograme.',
     image: gridsImage,
     runtime: { minutes: 9, seconds: 12 },
   },
   {
-    title: 'Designing your first icon',
-    description: 'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
+    title: 'Desenarea primei pictograme',
+    description: 'Folosind forme de bază și operații booleene, învață cum să desenezi propria pictogramă de notificare de la zero.',
     image: strokesImage,
     runtime: { minutes: 23, seconds: 25 },
   },
   {
-    title: 'Advanced design techniques',
-    description: 'Learn the techniques you need to know to adapt your original icon to a modern duotone style.',
+    title: 'Tehnici avansate de design',
+    description: 'Învață tehnicile pe care trebuie să le cunoști pentru a adapta pictograma originală la un stil modern duoton.',
     image: duotoneImage,
     runtime: { minutes: 28, seconds: 44 },
   },

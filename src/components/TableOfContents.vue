@@ -6,16 +6,16 @@
   >
     <Container>
       <SectionHeading number="1" id="table-of-contents-title">
-        Table of contents
+        Cuprins
       </SectionHeading>
       <p class="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        Get a look at all of the content covered in the book. Everything you
-        need to know is inside.
+        Aruncați o privire la tot conținutul acoperit în carte. Totul pe care
+        aveți nevoie să știți se află înăuntru.
       </p>
       <p class="mt-4 text-lg tracking-tight text-slate-700">
-        "Everything Starts as a Square" is comprised of 240 tightly edited,
-        highly visual pages designed to teach you everything you need to know
-        about icon design with no unnecessary filler.
+        "Totul Începe cu un Pătrat" este compus din 240 de pagini editate apretant,
+        foarte vizuale, concepute pentru a vă învăța tot ce trebuie să știți
+        despre designul de pictograme fără umplutură inutilă.
       </p>
       <ol role="list" class="mt-16 space-y-10 sm:space-y-16">
         <li v-for="[title, pages] in Object.entries(tableOfContents)" :key="title">
@@ -51,28 +51,28 @@ import Container from './Container.vue'
 import SectionHeading from './SectionHeading.vue'
 
 const tableOfContents = {
-  'Getting started': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
+  'Primii pași': {
+    'Primii pași': 1,
+    'Introducere în Figma': 15,
+    'Configurarea primei planning': 20,
   },
-  Fundamentals: {
-    'Strokes and fills': 21,
-    'End points': 22,
-    'Bezier curves': 26,
-    'Designing on a grid': 31,
-    'Vector shapes': 45,
+  'Noțiuni fundamentale': {
+    'Linii și umpleri': 21,
+    'Puncte finale': 22,
+    'Curbe Bezier': 26,
+    'Proiectare pe grilă': 31,
+    'Forme vectoriale': 45,
   },
-  'Boolean operations': {
-    'Combining shapes': 50,
-    'Subtracting shapes': 57,
-    'Intersecting shapes': 66,
-    Flattening: 78,
+  'Operații booleene': {
+    'Combinarea formelor': 50,
+    'Scăderea formelor': 57,
+    'Intersectarea formelor': 66,
+    'Aplatizare': 78,
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
+  'Optimizare pentru producție': {
+    'Pregătire pentru SVG': 82,
+    'Configurarea setărilor de export': 88,
+    'Minificare și eliminare metadate': 95,
   },
 }
 </script>

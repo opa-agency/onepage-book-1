@@ -6,41 +6,41 @@
   >
     <Container>
       <SectionHeading number="4" id="pricing-title">
-        Pricing
+        Preț
       </SectionHeading>
       <p class="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-        Pick your package
+        Aleţi-vă pachetul
       </p>
       <p class="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-        "Everything Starts as a Square" is available in two different packages
-        so you can pick the one that's right for you.
+        "Totul Începe cu un Pătrat" este disponibil în două pachete diferite
+        așa că puteți alege cel potrivit pentru dumneavoastră.
       </p>
     </Container>
     <div class="mx-auto mt-16 max-w-5xl lg:px-6">
       <div class="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
         <Plan
-          name="Essential"
-          description="The perfect starting point if you're on a budget."
+          name="Esențial"
+          description="Punctul de plecare perfect dacă sunteti pe buget."
           price="15"
           href="#"
           :features="[
-            'The 240-page ebook',
-            'Figma icon templates',
-            'Community access',
+            'E-cartea de 240 de pagini',
+            'Modele de pictograme Figma',
+            'Acces la comunitate',
           ]"
         />
         <Plan
           :featured="true"
-          name="Complete"
-          description="Everything icon resource you could ever ask for."
+          name="Complet"
+          description="Toate resursele de pictograme pe care le-aţi putea cere vreodatu."
           price="229"
           href="#"
           :features="[
-            'The 240-page ebook',
-            'Figma icon templates',
-            'Over an hour of screencasts',
-            'Weekly icon teardowns',
-            'Community access',
+            'E-cartea de 240 de pagini',
+            'Modele de pictograme Figma',
+            'Peste o oră de screencasts',
+            'Descompuneri hebdomadare de pictograme',
+            'Acces la comunitate',
           ]"
         />
       </div>

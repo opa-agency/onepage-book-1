@@ -6,8 +6,8 @@
       <GridPattern x="50%" />
     </div>
     <div class="relative text-center text-sm text-slate-600">
-      <p>Copyright &copy; {{ currentYear }} Lindehoff Design, LLC</p>
-      <p>All rights reserved.</p>
+      <p>Drepturi de autor &copy; {{ currentYear }} Lindehoff Design, LLC</p>
+      <p>Toate drepturile rezervate.</p>
     </div>
   </footer>
 </template>

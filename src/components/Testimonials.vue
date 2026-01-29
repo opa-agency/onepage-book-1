@@ -2,12 +2,12 @@
   <section class="py-8 sm:py-10 lg:py-16">
     <Container class="text-center">
       <h2 class="font-display text-4xl font-bold tracking-tight text-slate-900">
-        Some kind words from early customers...
+        Cuvinte frumoase de la clienții timpurii...
       </h2>
       <p class="mt-4 text-lg tracking-tight text-slate-600">
-        I worked with a small group of early access customers to make sure all
-        of the content in the book was exactly what they needed. Hears what
-        they had to say about the finished product.
+        Am lucrat cu un mic grup de clienți cu acces timpuriu pentru a mă asigura că
+        tot conținutul din carte era exact ceea ce aveau nevoie. Iata ce au spus ei
+        despre produsul final.
       </p>
     </Container>
     <ul
@@ -53,44 +53,44 @@ import avatarImage11 from '@/images/avatars/avatar-11.png'
 const testimonials = [
   [
     {
-      content: "Mira's teaching style is second to none. Everything was easy to follow every step of the way.",
-      author: { name: 'Antonio Littel', role: 'Frontend Developer', image: avatarImage3 },
+      content: "Stilul de predare al Mirei nu are egal. Totul a fost ușor de urmărit la fiecare pas.",
+      author: { name: 'Antonio Littel', role: 'Dezvoltator Frontend', image: avatarImage3 },
     },
     {
-      content: "Even though I was excited to learn, I was pessimistic that I wouldn't actually ever get good enough to design my own icons. I was wrong — this book is all I needed.",
-      author: { name: 'Lynn Nolan', role: 'Growth Marketer', image: avatarImage4 },
+      content: "Deși eram entuziast să înveț, am fost pesimist că nu voi fi niciodată suficient de bun pentru a desena propriile mele pictograme. M-am înșelat — această carte este tot ce am avut nevoie.",
+      author: { name: 'Lynn Nolan', role: 'Specialist Marketing', image: avatarImage4 },
     },
     {
-      content: "I've been employed as a professional icon designer for years and still learned tons of new tricks that have made my work even better",
-      author: { name: 'Krista Prosacco', role: 'Professional Designer', image: avatarImage9 },
-    },
-  ],
-  [
-    {
-      content: "I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now I can design my own in minutes.",
-      author: { name: 'Cameron Considine', role: 'Entrepreneur', image: avatarImage7 },
-    },
-    {
-      content: "The complete package is worth it for the weekly teardown videos alone. I've learned so much watching Mira take apart other icons and recreate them from scratch.",
-      author: { name: 'Regina Wisoky', role: 'Design Student', image: avatarImage11 },
-    },
-    {
-      content: "I didn't expect to find a lot of value in the community but now I'm in there for at least an hour every day picking up tips from other designers.",
-      author: { name: 'Vernon Cummerata', role: 'UI Engineer', image: avatarImage8 },
+      content: "Am lucrat ca designer profesionist de pictograme de ani de zile și am învățat multși trucuri noi care mi-au îmbunătățit munca",
+      author: { name: 'Krista Prosacco', role: 'Designer Profesionist', image: avatarImage9 },
     },
   ],
   [
     {
-      content: "I couldn't believe how fast Mira moved in Figma compared to my own workflow. I'm designing icons more accurately in half the time with the shortcuts I learned from her videos.",
-      author: { name: 'Steven Hackett', role: 'Bootcamp Instructor', image: avatarImage5 },
+      content: "Fur un magazin de comerț electronic care vinde ursuleți gumati rari și nu am găsit niciodată o bună pictogramă de ursuleț. Acum pot desena una proprie în minute.",
+      author: { name: 'Cameron Considine', role: 'Întreprenător', image: avatarImage7 },
     },
     {
-      content: "I never thought I would enjoy designing icons but using the ideas in this book, it's become a great way for me to relax while still being creative.",
-      author: { name: 'Carla Schoen', role: 'Startup Founder', image: avatarImage10 },
+      content: "Pachetul complet merită pentru videoclipurile de demolition hebdomadare singure. Am învățat atât de mult privatizandul cum Mira descompune alte pictograme și le recreaște de la zero.",
+      author: { name: 'Regina Wisoky', role: 'Student Design', image: avatarImage11 },
     },
     {
-      content: "All I can say is wow — this is easily the best icon design resource I've ever encountered.",
-      author: { name: 'Leah Kiehn', role: 'Creative Director', image: avatarImage6 },
+      content: "Nu m-am așteptat să găsesc multă valoare în comunitate, dar acum sunt acolo cel puțin o oră în fiecare zi și învaț sfaturi de la alți designeri.",
+      author: { name: 'Vernon Cummerata', role: 'Ing. UI', image: avatarImage8 },
+    },
+  ],
+  [
+    {
+      content: "Nu am putut crede cu ce viteză se mișcă Mira în Figma comparativ cu propriul meu flux de lucru. Desenez pictograme mai exact în jumătatea timpului cu comenzile rapid pe care le-am învățat din videoclipurile ei.",
+      author: { name: 'Steven Hackett', role: 'Instructor Bootcamp', image: avatarImage5 },
+    },
+    {
+      content: "Nu m-am gândit niciodată că voi apăsa desenul de pictograme, dar folosind ideile din această carte, a devenit un mod grozav pentru mine să mă relaxez și să fiu creativ.",
+      author: { name: 'Carla Schoen', role: 'Fondator Startup', image: avatarImage10 },
+    },
+    {
+      content: "Tot ce pot spune este uau — aceasta este cu ușurință cea mai bună resursă de design de pictograme pe care o întâlnit vreodatuă.",
+      author: { name: 'Leah Kiehn', role: 'Director Creative', image: avatarImage6 },
     },
   ],
 ]

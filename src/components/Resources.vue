@@ -6,16 +6,15 @@
   >
     <Container>
       <SectionHeading number="3" id="resources-title">
-        Resources
+        Resurse
       </SectionHeading>
       <p class="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-        Tools and resources you can use to get started even faster and
-        progress even further.
+        Instrumente și resurse pe care le puteți folosi pentru a începe și mai repede și
+        a progresa chiar mai departe.
       </p>
       <p class="mt-4 text-lg tracking-tight text-slate-700">
-        Design assets, icon teardowns, and a community of fellow icon
-        designers where you can ask questions, get feedback, and accelerate
-        your learning.
+        Active de design, descompuneri de pictograme și o comunitate de designeri de pictograme
+        unde puteți pune întrebări, puteți primi feedback și vă acceleraț învățarea.
       </p>
     </Container>
     <Container size="lg" class="mt-16">
@@ -56,23 +55,23 @@ import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
   {
-    title: 'Figma icon templates',
-    description: 'Perfectly structured templates for quickly designing new icons at dozens of common sizes.',
+    title: 'Modele de pictograme Figma',
+    description: 'Modele perfect structurate pentru a desena rapid noi pictograme în duzini de dimensiuni comune.',
     image: () => h('div', { class: 'absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]' }, [
       h('img', { src: figmaImage, alt: '' })
     ]),
   },
   {
-    title: 'Weekly icon teardowns',
-    description: 'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+    title: 'Descompuneri de pictograme hebdomadare',
+    description: 'Videoclipuri hebdomadare unde disectam și recreem pictograme frumoase pe care le găsim pe web.',
     image: () => h('div', { class: 'absolute inset-0 flex items-center justify-center' }, [
       h('img', { class: 'absolute inset-0 h-full w-full object-cover', src: abstractBackgroundImage, alt: '' }),
       h('img', { class: 'relative', src: videoPlayerImage, alt: '' })
     ]),
   },
   {
-    title: 'Community of icon designers',
-    description: "A private Discord server where you can get help and give feedback on each others' work.",
+    title: 'Comunitate de designeri de pictograme',
+    description: "Un server privat Discord unde puteți primi ajutor și oferi feedback la munca celorlalți.",
     image: () => h('div', { class: 'absolute inset-0 flex items-center justify-center bg-[#6366F1]' }, [
       h('img', { src: discordImage, alt: '' })
     ]),

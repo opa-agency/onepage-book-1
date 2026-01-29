@@ -23,7 +23,7 @@
             mobileMenuOpen && 'relative z-10',
           ]"
           @click="mobileMenuOpen = !mobileMenuOpen"
-          aria-label="Toggle navigation menu"
+          aria-label="Comuta meniu navigare"
         >
           <span v-if="!mobileMenuOpen" class="absolute inset-0" />
           <svg
@@ -103,12 +103,12 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const sections = [
   {
     id: 'table-of-contents',
-    title: 'Contents',
+    title: 'Cuprins',
   },
   { id: 'screencasts', title: 'Screencasts' },
-  { id: 'resources', title: 'Resources' },
-  { id: 'pricing', title: 'Pricing' },
-  { id: 'author', title: 'Author' },
+  { id: 'resources', title: 'Resurse' },
+  { id: 'pricing', title: 'Preț' },
+  { id: 'author', title: 'Autor' },
 ]
 
 const navBarRef = ref(null)

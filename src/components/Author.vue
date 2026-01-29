@@ -18,20 +18,20 @@
         </div>
         <div class="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
           <SectionHeading number="5" id="author-title">
-            Author
+            Autor
           </SectionHeading>
           <p class="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-            <span class="block text-blue-600">Mira Lindehoff –</span> Hey
-            there, I'm the author behind 'Everything Starts as a Square'.
+            <span class="block text-blue-600">Mira Lindehoff –</span> Bună,
+            sunt autoarea din spatele "Totul Începe cu un Pătrat".
           </p>
           <p class="mt-4 text-lg tracking-tight text-slate-700">
-            I've been designing icons professionally for over a decade and
-            have worked with dozens of the biggest brands to create custom
-            sets for their products. I'm an accomplished conference speaker,
-            and have been teaching icon design workshops every month for the
-            last three years. I've worked with designers of all skill levels
-            and honed my way of teaching to really click for anyone who has
-            the itch to start designing their own icons.
+            Desenez pictograme profesional de peste un deceniu și am lucrat
+            cu zeci dintre cele mai mari mărci pentru a crea seturi personalizate
+            pentru produsele lor. Sunt un vorbitor de conferință realizat și
+            am ținut ateliere de design de pictograme în fiecare lună în ultimii
+            trei ani. Am lucrat cu designeri de toate nivelurile de abilitate și
+            mi-am perfecționat metodele de predare pentru a funcționa cu adevărat
+            pentru oricine are dorința de a-și proiecta propriile pictograme.
           </p>
           <p class="mt-8">
             <a
@@ -41,7 +41,7 @@
               <svg aria-hidden="true" viewBox="0 0 24 24" class="h-10 w-10 fill-current">
                 <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8132L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
               </svg>
-              <span class="ml-4">Follow on X</span>
+              <span class="ml-4">Urmărire pe X</span>
             </a>
           </p>
         </div>

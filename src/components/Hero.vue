@@ -21,33 +21,33 @@
           </div>
           <blockquote class="mt-2">
             <p class="font-display text-xl font-medium text-slate-900">
-              "This method of designing icons is genius. I wish I had known this
-              method a lot sooner."
+              "Această metodă de a desena pictograme este geniabilă. Mi-aș fi dorit
+              să o fi cunoscut mult mai devreme."
             </p>
           </blockquote>
           <figcaption class="mt-2 text-sm text-slate-500">
             <strong class="font-semibold text-blue-600 before:content-['—_']">
               Stacey Solomon
             </strong>
-            , Founder at Retail Park
+            , Fondator la Retail Park
           </figcaption>
         </figure>
       </div>
       <div class="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
         <div class="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
           <h1 class="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-            Get lost in the world of icon design.
+            Pierdete în lumea designului de pictograme.
           </h1>
           <p class="mt-4 text-3xl text-slate-600">
-            A book and video course that teaches you how to design your own
-            icons from scratch.
+            O carte și un curs video care vă învață cum să proiectați propriile
+            pictograme de la zero.
           </p>
           <div class="mt-8 flex gap-4">
             <Button href="#free-chapters" color="blue">
-              Get sample chapter
+              Obțineți capitol de mostră
             </Button>
             <Button href="#pricing" variant="outline" color="blue">
-              Buy book
+              Cumpărați cartea
             </Button>
           </div>
         </div>
